@@ -111,9 +111,12 @@ div.background {
 
 div.wrapper {
     width: 960px;
-    background-color: #444;
-    height: 1000px;
     margin: 0px auto;
+}
+
+div.hight {
+    height: 1000px;
+    background-color: #444;
 }
 
 a {
@@ -121,7 +124,30 @@ a {
     text-decoration: none;
 }
 
-a.arre {
-    margin: 0px 20px;
+nav {
+
 }
+
+nav ul {
+    padding: 40px;
+}
+
+nav ul li {
+    margin-bottom: 10px;
+}
+
+nav ul li a {
+    color:#fff;
+    transition: all 500ms;
+    -webkit-transition: all 500ms;
+    -moz-transition: all 500ms;
+    -o-transition: all 500ms;
+}
+
+nav ul li a:hover {
+    color:#66f;
+    margin-left: 5px;
+    margin-right: 0px;
+}
+
 
