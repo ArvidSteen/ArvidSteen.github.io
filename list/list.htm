@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>test</title>
+	<meta charset="utf-8">
+</head>
+<body>
+	<script type="text/javascript">
+		function writeToFile(d1, d2){
+		    var fso = new ActiveXObject("Scripting.FileSystemObject");
+		    var fh = fso.OpenTextFile("data.txt", 8, false, 0);
+		    fh.WriteLine(d1 + ',' + d2);
+		    fh.Close();
+		}
+		var submit = document.getElementById("submit");
+		submit.onclick = function () {
+		    var id      = document.getElementById("id").value;
+		    var content = document.getElementById("content").value;
+		    writeToFile(id, content);
+		}
+	</script>
+	<div id="addnew">
+	    <input type="text" id="id">
+	    <input type="text" id="content">
+	    <input type="button" value="Add" id="submit">
+	</div>
+	<div id="check">
+	    <input type="text" id="input">
+	    <input type="button" value="Search" id="search">
+	</div>
+</body>
+</html>
