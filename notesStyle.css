@@ -150,12 +150,39 @@ nav ul li a:hover {
     margin-right: 0px;
 }
 
-.back img {
+/*--------BACK BUTTON-------*/
+
+.backcontainer {
+    margin: 20px;
+    float: right;
+    position: relative;
+}
+
+.backcontainer img {
     height: 50px;
     width: 50px;
-    float: right;
-    margin: 20px;
 }
+
+.backoverlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.backcontainer:hover .backoverlay {
+    opacity: 1;
+}
+
+.backcontainer:hover .backa {
+    opacity: 0;
+}
+
+
+
 
 
 
