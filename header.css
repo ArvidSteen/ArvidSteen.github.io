@@ -1,0 +1,246 @@
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+
+
+/*          HERE MY JURNEY BEGINNS          */
+
+.wrapper {
+    width: 960px;
+    margin: 0 auto;
+}
+
+#mainLinkbar {
+    width: 100%;
+    height: 90px;
+    background: #000; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left, #000, #0d2438); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #000, #0d2438); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #000, #0d2438); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #000, #0d2438); /* Standard syntax (must be last) */
+}
+
+header img {
+    margin-top: 10px;
+    float: left;
+    height: 70px;
+
+}
+
+/*     top navigation     */
+
+nav[role="topNav"] {
+    float: right;
+}
+
+nav[role="topNav"] ul {
+    margin-top: 50px;
+}
+
+nav[role="topNav"] ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+nav[role="topNav"] ul li a {
+    color:#fff;
+    text-decoration: none;
+    margin-left:20px;
+    margin-right: 0px;
+    transition: all 500ms;
+    -webkit-transition: all 500ms;
+    -moz-transition: all 500ms;
+    -o-transition: all 500ms;
+}
+
+nav[role="topNav"] ul li a:hover {
+    color:#900;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/* SubLinkbar and SubNav */
+
+.subLinkbar {
+    width: 100%;
+}
+
+.subLinkbar div.wrapper {
+    background-color: #fff;
+}
+
+nav[role="subNav"] {
+    text-align: center;
+    
+}
+
+nav[role="subNav"] ul {
+    padding: 10px 0px;
+}
+
+nav[role="subNav"] ul li {
+    display: inline-block;
+    margin: 0px 10px;
+}
+
+nav[role="subNav"] ul li a {
+    color:#666;
+    text-decoration: none;
+    transition: all 400ms;
+    -webkit-transition: all 400ms;
+    -moz-transition: all 400ms;
+    -o-transition: all 400ms;
+}
+
+nav[role="subNav"] ul li a:hover {
+    color:#000;
+}
+
+
+/* stuff */
+
+.mainText {
+    margin-top: 0px;
+    background-color: #fff;
+}
+
+#shadowStyle {
+    background-color: #ccc;
+    height: 5px;
+    width: 960px;
+    margin:0 auto;
+}
+
+.bottomBar {
+    background-color: #000;
+    height: 100px;
+}
+
+/*  bottom navigatin    */
+
+nav[role="bottomNav"] {
+    text-align: center;
+}
+
+nav[role="bottomNav"] ul {
+    margin-top:0px;
+}
+
+nav[role="bottomNav"] ul li {
+    display: inline-block;
+    margin:10px;
+
+}
+
+nav[role="bottomNav"] ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
